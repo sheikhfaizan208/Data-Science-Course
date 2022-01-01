@@ -1,0 +1,43 @@
+x=("Twinkle, twinkle, little star")
+y= ("        How i wonder what you are!")
+z=("                  Up above the world so high,")
+a=("                   like a diamond in the sky.")
+b=("        How i wonder what you are")
+print(x);
+print(y);
+print(z);
+print(a);
+print(x);
+print(b);
+
+#2nd code
+firstname=input("Enter firstname: ")
+lastname=input("Enter lastname: ")
+
+
+print("username is:"   +lastname +" "+ firstname )
+print("username is: " +firstname)
+
+#3rd code
+from datetime import datetime
+print(datetime.now())
+
+#4th code
+import sys
+print("python version")
+print(sys.version)
+print(sys.version_info)
+
+#5th code
+from math import pi
+r=float(input("input the circle : "))
+calculateArea=str(pi*r**2);
+print("area of circle "+str(r)+ "is :" +calculateArea)
+
+#6th code
+a = input("Enter a number: ")
+b = input("Enter another number: ")
+#we use int because its a intergar value when we add two integar we use int 
+sum = int(a) + int(b)
+
+print("The sum is: ", sum)
